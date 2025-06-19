@@ -68,3 +68,141 @@
     list-style-type: disc;
     padding-left: 20px;
 }
+
+.navbar {
+    background-color: #111;
+    padding: 10px 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    background-color: #a00;
+}
+
+/* 下拉選單隱藏預設 */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin: 12px 0;
+}
+
+.song-list a {
+    color: #a00;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.song-list a:hover {
+    text-decoration: underline;
+}
+
+.collab-card {
+    background-color: #b00;
+    color: white;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.collab-card img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.collab-card p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+}
+.song-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px 0 10px;
+}
+
+.cover-image {
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.song-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info-box {
+    background-color: #a00;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.info-box p, .info-box li {
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.lyrics-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 1.8;
+    color: #111;
+}
